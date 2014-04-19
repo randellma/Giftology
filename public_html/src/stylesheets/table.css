@@ -1,0 +1,153 @@
+.GroupListTable, .GroupParticipantsTable, .GroupAddTable, .GroupEditTable, .GroupRestrictionsTable
+{	
+	border-collapse:collapse;
+	width: 100%;
+	table-layout: fixed;
+	position: relative;
+	z-index: 1;
+}
+
+.GroupListTable th, .GroupParticipantsTable th, .GroupAddTable th,
+ .GroupEditTable th, .GroupRestrictionsTable th
+{
+	padding:10px;
+	padding-left: 0px;
+	border-bottom:1px solid #BBB;
+	border-top:1px solid #BBB;
+	background-color:#EEE;
+	text-align: left;
+}
+
+th
+{
+	font-size: 12px;
+}
+
+.GroupListTable th:first-child, .GroupParticipantsTable th:first-child, 
+.GroupAddTable th:first-child, .GroupEditTable th:first-child, .GroupRestrictionsTable th:first-child
+{
+	border-left:1px solid #BBB;
+}
+
+.GroupListTable th:last-child, .GroupParticipantsTable th:last-child, 
+.GroupAddTable th:last-child, .GroupEditTable th:last-child, .GroupRestrictionsTable th:last-child
+{
+	border-right:1px solid #BBB;
+}
+
+.GroupListTable tr:first-child, .GroupParticipantsTable tr:first-child
+, .GroupAddTable tr:first-child, .GroupRestrictionsTable tr:first-child
+{
+	padding:10px;
+	width: 100%;
+}
+
+.GroupListTable tr th:first-child, .GroupParticipantsTable tr th:first-child
+, .GroupAddTable tr th:first-child, .GroupRestrictionsTable tr th:first-child
+{
+	padding-left: 5px;
+}
+
+.GroupListTable tr td:first-child, .GroupParticipantsTable tr td:first-child
+, .GroupAddTable tr td:first-child
+{
+	padding-left: 5px;
+}
+
+.GroupListTable tr:nth-child(n+2):hover
+{
+	background-color:#ffeeee;
+	cursor: pointer; cursor: hand;
+}
+
+.GroupListTable th:first-child
+{
+	width: 20%;
+}
+.GroupListTable th:nth-child(2)
+{
+	width: 50%;
+}
+.GroupListTable th:nth-child(3)
+{
+	width:17%;
+}
+.GroupListTable th:nth-child(4)
+{
+	width:12%;
+}
+
+.GroupParticipantsTable th:first-child
+{
+	width: 30%;
+}
+.GroupParticipantsTable th:nth-child(2)
+{
+	width: 30%;
+}
+.GroupParticipantsTable th:nth-child(3)
+{
+	width:20%;
+}
+.GroupParticipantsTable th:nth-child(4)
+{
+	width:20%;
+}
+
+.GroupAddTable th:first-child
+{
+	width: 25%;
+}
+.GroupAddTable th:nth-child(2)
+{
+	width: 25%;
+}
+.GroupAddTable th:nth-child(3)
+{
+	width:43%;
+}
+.GroupAddTable th:nth-child(4)
+{
+	width:7%;
+}
+.GroupAddTable td:nth-child(4)
+{
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.GroupRestrictionsTable th:first-child
+{
+	width: 30%;
+}
+.GroupRestrictionsTable th:nth-child(2)
+{
+	width: 50%;
+}
+.GroupRestrictionsTable th:nth-child(3)
+{
+	width:20%;
+}
+
+.GroupListTable td, .GroupParticipantsTable td, .GroupRestrictionsTable td
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right: 10px;
+	vertical-align:top;
+	border-bottom:1px solid #DDD;
+}
+
+.GroupAddTable td
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right: 10px;
+	vertical-align:top;
+}
+
+.GroupAddTable input
+{
+	width: 100%;
+	border:default;
+}
